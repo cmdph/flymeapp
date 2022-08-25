@@ -11,7 +11,7 @@ class DefaultConfig:
 
     #WEB APP CONFIGURATION
     PORT = 8000
-    APP_ID = os.environ.get("MicrosoftAppId", "436a6877-b7f4-4efa-821b-32cd17c99ea9")
+    APP_ID = os.environ.get("MicrosoftAppId", "")
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
     
     #LUIS APP CONFIGURATION
